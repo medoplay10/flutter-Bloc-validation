@@ -1,4 +1,7 @@
-part of 'my_form_blog.dart';
+import 'package:bloc_pattern_flutter/BLOC/email.dart';
+import 'package:bloc_pattern_flutter/BLOC/password.dart';
+import 'package:equatable/equatable.dart';
+import 'package:formz/formz.dart';
 
 class MyFormState extends Equatable {
 //declare variables

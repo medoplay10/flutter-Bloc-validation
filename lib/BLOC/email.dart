@@ -7,6 +7,8 @@ enum EmailValidationError { invalid }
 //create class to validate email address
 
 class Email extends FormzInput<String, EmailValidationError> {
+  const Email.pure() : super.pure("");
+
   const Email.dirty([String value = '']) : super.dirty(value);
 
   //expression to validate email
